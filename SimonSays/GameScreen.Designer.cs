@@ -42,15 +42,17 @@
             this.yellowButton.Size = new System.Drawing.Size(110, 110);
             this.yellowButton.TabIndex = 3;
             this.yellowButton.UseVisualStyleBackColor = false;
+            this.yellowButton.Click += new System.EventHandler(this.yellowButton_Click);
             // 
             // blueButton
             // 
-            this.blueButton.BackColor = System.Drawing.Color.DarkBlue;
+            this.blueButton.BackColor = System.Drawing.Color.MidnightBlue;
             this.blueButton.Location = new System.Drawing.Point(152, 149);
             this.blueButton.Name = "blueButton";
             this.blueButton.Size = new System.Drawing.Size(110, 110);
             this.blueButton.TabIndex = 2;
             this.blueButton.UseVisualStyleBackColor = false;
+            this.blueButton.Click += new System.EventHandler(this.blueButton_Click);
             // 
             // redButton
             // 
@@ -60,10 +62,11 @@
             this.redButton.Size = new System.Drawing.Size(110, 110);
             this.redButton.TabIndex = 1;
             this.redButton.UseVisualStyleBackColor = false;
+            this.redButton.Click += new System.EventHandler(this.redButton_Click);
             // 
             // greenButton
             // 
-            this.greenButton.BackColor = System.Drawing.Color.ForestGreen;
+            this.greenButton.BackColor = System.Drawing.Color.DarkGreen;
             this.greenButton.Location = new System.Drawing.Point(40, 37);
             this.greenButton.Name = "greenButton";
             this.greenButton.Size = new System.Drawing.Size(110, 110);
